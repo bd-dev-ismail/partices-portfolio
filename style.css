@@ -1,0 +1,109 @@
+/* 
+    Template Name: Preter (Portfolio Website)
+    Tamplate Url: 
+    Description: Developer Ismail Website.
+    Author Name: Md Ismail Hossen.
+    Author Url: https://ismailratul.com
+    Version: 0.1
+    Support: support@ismailratul.com
+
+*/
+/* 
+    Css Index:
+    1.Common Css.
+    2.Reuseable Component.
+    3.Hero Section
+    4.Dream Section
+    5.Experience Section
+    6.Footer Section
+*/
+/*  1.Common Css */
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+/*  2.Reuseable Component. */
+h1{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+    font-weight: 400;
+    margin: 16px 0;
+}
+h3{
+    font-weight: 700;
+    margin: 20px 0;
+}
+h2{
+    font-size: 40px;
+    margin: 35px 0;
+}
+
+/*  3.Hero Section */
+.hero-area{
+    display: flex;
+    margin-bottom: 150px;
+}
+#hero-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.set-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-left: 2%;
+}
+.color-orange{
+    color: orange;
+}
+p{
+    margin: 30px 0;
+    
+}
+
+.hero-image img{
+    width: 80%;
+}
+.hire-btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+}
+/*  4.Dream Section */
+#dream-section{
+    display: flex;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/*  5.Experience Section */
+#experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.developer-item{
+    box-shadow:5px 7px 40px grey;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+#full-stack-developer{
+    border-left: 5px solid blue;
+}
+#baby-web-developer{
+    border-left: 5px solid blue;
+}
+/*  6.Footer Section */
+footer p {
+    text-align: center;
+}
